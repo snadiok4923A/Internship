@@ -14,6 +14,7 @@
   --shadow-card: 0 8px 28px rgb(36 49 87 / 5%);
   --shadow-raised: 0 18px 50px rgb(36 49 87 / 16%);
   --radius-card: 18px;
+  --site-header-height: 79px;
   font-family: "DM Sans", "Segoe UI", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,6 +31,7 @@ html {
 
 body {
   margin: 0;
+  padding-top: var(--site-header-height);
   background: var(--page);
   color: var(--ink);
 }
@@ -83,9 +85,14 @@ select:focus-visible {
 }
 
 .site-header {
-  position: relative;
-  z-index: 5;
-  background: rgb(255 255 255 / 92%);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  background: rgb(255 255 255 / 94%);
+  backdrop-filter: blur(12px);
   border-bottom: 1px solid rgb(232 235 242 / 80%);
 }
 
@@ -1168,6 +1175,10 @@ p {
 }
 
 @media (max-width: 760px) {
+  :root {
+    --site-header-height: 69px;
+  }
+
   .header-inner,
   .hero-inner,
   .listing-section,
