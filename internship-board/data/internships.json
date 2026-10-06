@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer Intern",
+    "company": "NovaTech Labs",
+    "domain": "Web Development",
+    "location": "Remote",
+    "workType": "Remote",
+    "duration": "3 Months",
+    "stipend": 18000,
+    "skills": ["HTML", "CSS", "JavaScript", "Accessibility"],
+    "postedDate": "2026-10-01",
+    "deadline": "2026-10-30",
+    "eligibility": "Students pursuing B.Tech, BCA, MCA, or a related degree with basic web development experience.",
+    "description": "Join a small, supportive product team building thoughtful tools for independent creators. You will ship real features, learn a modern frontend workflow, and get feedback from experienced engineers.",
+    "responsibilities": [
+      "Build responsive product interfaces using HTML, CSS, and JavaScript.",
+      "Work with designers and engineers to turn product ideas into polished features.",
+      "Test your work across browsers and improve usability and accessibility."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Python Software Intern",
+    "company": "OrbitStack Systems",
+    "domain": "Python Development",
+    "location": "Bengaluru",
+    "workType": "Hybrid",
+    "duration": "4 Months",
+    "stipend": 22000,
+    "skills": ["Python", "Django", "REST APIs", "PostgreSQL"],
+    "postedDate": "2026-10-04",
+    "deadline": "2026-11-02",
+    "eligibility": "Undergraduate or postgraduate students comfortable with Python fundamentals and curious about backend systems.",
+    "description": "Help the OrbitStack platform team improve the APIs that power scheduling and operations software for growing businesses. Pair with a mentor and contribute to a live development cycle.",
+    "responsibilities": [
+      "Implement and test API features in a Python web application.",
+      "Write clear, maintainable code and take part in code reviews.",
+      "Investigate bugs with the team and document useful solutions."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Data Science Intern",
+    "company": "Fieldnote Analytics",
+    "domain": "Data Science",
+    "location": "Remote",
+    "workType": "Remote",
+    "duration": "3 Months",
+    "stipend": 15000,
+    "skills": ["Python", "Pandas", "SQL", "Data Visualization"],
+    "postedDate": "2026-09-27",
+    "deadline": "2026-10-25",
+    "eligibility": "Students in statistics, computer science, mathematics, or a related field; introductory Python and SQL knowledge is helpful.",
+    "description": "Explore real product and customer datasets with a friendly analytics team. You will learn how good questions, careful data cleaning, and clear communication help teams make better decisions.",
+    "responsibilities": [
+      "Clean and explore structured datasets using Python and SQL.",
+      "Create charts and concise summaries for internal stakeholders.",
+      "Collaborate with data scientists to validate findings."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Machine Learning Research Intern",
+    "company": "Aster Intelligence",
+    "domain": "Machine Learning",
+    "location": "Pune",
+    "workType": "On-site",
+    "duration": "6 Months",
+    "stipend": 28000,
+    "skills": ["Python", "Machine Learning", "scikit-learn", "NumPy"],
+    "postedDate": "2026-10-05",
+    "deadline": "2026-11-05",
+    "eligibility": "Students pursuing a degree in computer science, engineering, or a related quantitative discipline with introductory ML knowledge.",
+    "description": "Work alongside applied researchers exploring practical machine learning for document understanding. This is a hands-on learning role with weekly research reviews and a dedicated mentor.",
+    "responsibilities": [
+      "Prepare datasets and establish reproducible experiment baselines.",
+      "Evaluate model performance and communicate findings.",
+      "Read relevant research and help prototype promising approaches."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Product Design Intern",
+    "company": "Morrow Studio",
+    "domain": "UI/UX Design",
+    "location": "Mumbai",
+    "workType": "Hybrid",
+    "duration": "3 Months",
+    "stipend": 16000,
+    "skills": ["Figma", "Prototyping", "User Research", "Design Systems"],
+    "postedDate": "2026-09-30",
+    "deadline": "2026-10-29",
+    "eligibility": "Students or recent graduates interested in digital product design. A portfolio or class project is welcome.",
+    "description": "Help make complex tasks feel simple. You will join designers working on approachable financial tools and learn how research, interaction design, and visual craft fit together.",
+    "responsibilities": [
+      "Create wireframes, flows, and interactive prototypes in Figma.",
+      "Join research sessions and summarize user observations.",
+      "Help maintain components and documentation in the design system."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Security Operations Intern",
+    "company": "Redwood Sentinel",
+    "domain": "Cybersecurity",
+    "location": "Hyderabad",
+    "workType": "On-site",
+    "duration": "6 Months",
+    "stipend": 20000,
+    "skills": ["Networking", "Linux", "Security Basics", "Python"],
+    "postedDate": "2026-09-25",
+    "deadline": "2026-10-24",
+    "eligibility": "Students studying computer science, information security, or IT with foundational networking knowledge.",
+    "description": "Learn from a security operations team that helps organizations stay resilient. The internship focuses on defensive security, careful investigation, and responsible reporting.",
+    "responsibilities": [
+      "Assist with triaging security alerts in a supervised environment.",
+      "Research vulnerabilities and summarize defensive mitigations.",
+      "Help improve internal runbooks and security awareness materials."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Cloud Platform Intern",
+    "company": "CloudKite Works",
+    "domain": "Cloud Computing",
+    "location": "Remote",
+    "workType": "Remote",
+    "duration": "4 Months",
+    "stipend": 24000,
+    "skills": ["AWS", "Linux", "Docker", "CI/CD"],
+    "postedDate": "2026-10-02",
+    "deadline": "2026-10-31",
+    "eligibility": "Students pursuing engineering or computer science degrees with an interest in cloud infrastructure and automation.",
+    "description": "Make cloud infrastructure easier to understand and operate. You will work with platform engineers, learn deployment fundamentals, and contribute to useful internal tooling.",
+    "responsibilities": [
+      "Support improvements to deployment scripts and developer tooling.",
+      "Document cloud resources and operational workflows.",
+      "Learn to monitor services and investigate reliability issues."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Android App Developer Intern",
+    "company": "Pinecone Mobile",
+    "domain": "Android Development",
+    "location": "Chennai",
+    "workType": "Hybrid",
+    "duration": "3 Months",
+    "stipend": 14000,
+    "skills": ["Kotlin", "Android", "REST APIs", "Git"],
+    "postedDate": "2026-09-28",
+    "deadline": "2026-10-28",
+    "eligibility": "Students in computer science or a related program with basic programming experience and an interest in mobile apps.",
+    "description": "Help a close-knit mobile team build a more delightful everyday planning app. Bring your curiosity, learn through pairing, and see your work reach real users.",
+    "responsibilities": [
+      "Implement small Android interface improvements in Kotlin.",
+      "Connect app screens to existing APIs with guidance.",
+      "Test features on different screen sizes and report issues."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Applied AI Intern",
+    "company": "Kindred AI Works",
+    "domain": "AI",
+    "location": "Remote",
+    "workType": "Remote",
+    "duration": "4 Months",
+    "stipend": 26000,
+    "skills": ["Python", "Natural Language Processing", "APIs", "Evaluation"],
+    "postedDate": "2026-10-03",
+    "deadline": "2026-11-01",
+    "eligibility": "Students with Python fundamentals and an interest in responsible AI, language technology, and product experimentation.",
+    "description": "Explore practical, human-centered AI features with a team that values careful evaluation. You will help prototype ideas and think critically about reliability and user experience.",
+    "responsibilities": [
+      "Prototype language model workflows and supporting integrations.",
+      "Create evaluation examples and analyze output quality.",
+      "Document limitations and suggest responsible product improvements."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Software Engineering Intern",
+    "company": "Brightpath Digital",
+    "domain": "Software Development",
+    "location": "Delhi",
+    "workType": "Hybrid",
+    "duration": "6 Months",
+    "stipend": 20000,
+    "skills": ["Java", "Git", "Algorithms", "Testing"],
+    "postedDate": "2026-09-29",
+    "deadline": "2026-10-27",
+    "eligibility": "Students pursuing B.Tech, BCA, MCA, or a related degree with a strong foundation in programming.",
+    "description": "Build reliable software with a cross-functional team solving practical challenges for small businesses. Expect thoughtful code reviews, steady mentorship, and room to ask questions.",
+    "responsibilities": [
+      "Develop and test small software features with your mentor.",
+      "Take part in planning, code reviews, and team demos.",
+      "Write documentation that helps teammates use your work."
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Business Intelligence Intern",
+    "company": "Copperleaf Insights",
+    "domain": "Data Science",
+    "location": "Kolkata",
+    "workType": "On-site",
+    "duration": "2 Months",
+    "stipend": 10000,
+    "skills": ["SQL", "Excel", "Power BI", "Communication"],
+    "postedDate": "2026-09-22",
+    "deadline": "2026-10-20",
+    "eligibility": "Students in business, economics, statistics, or computer science who enjoy working with data and communicating insights.",
+    "description": "Turn everyday business questions into clear, useful answers. Work with analysts to prepare reports and build confidence with data storytelling.",
+    "responsibilities": [
+      "Assist with data validation and recurring reports.",
+      "Build simple dashboard views with analyst guidance.",
+      "Present findings in plain language for non-technical teammates."
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Cloud Automation Intern",
+    "company": "Juniper Arc",
+    "domain": "Cloud Computing",
+    "location": "Remote",
+    "workType": "Remote",
+    "duration": "5 Months",
+    "stipend": 30000,
+    "skills": ["Python", "Terraform", "AWS", "GitHub Actions"],
+    "postedDate": "2026-10-06",
+    "deadline": "2026-11-06",
+    "eligibility": "Students pursuing computer science or engineering degrees who have tried scripting or cloud projects and are eager to learn.",
+    "description": "Grow your cloud engineering skills by helping build safer, more repeatable infrastructure workflows. The team offers guided project work and regular one-on-one mentoring.",
+    "responsibilities": [
+      "Help automate common cloud setup and maintenance tasks.",
+      "Update infrastructure documentation and example configurations.",
+      "Test changes in a sandbox and share clear implementation notes."
+    ]
+  }
+]
