@@ -37,11 +37,11 @@ Add screenshots of the desktop, tablet, and mobile layouts here after running th
 
 ## Live Demo
 
-https://your-live-demo-url.com
+https://snadiok4923a.github.io/Internship/
 
 ## GitHub
 
-Add your repository URL here: `https://github.com/your-username/your-repository`
+Add your repository URL here: `https://github.com/snadiok4923A/Internship`
 
 ## How to Run
 
