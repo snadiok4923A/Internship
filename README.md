@@ -2,18 +2,40 @@
 
 ## About
 
-InternBoard is a responsive, beginner-friendly internship discovery dashboard. It helps students explore fictional early-career roles across technology, design, and data using searchable listings, practical filters, and an accessible details dialog. All companies and openings are fictional; the Apply links are demo email drafts addressed to reserved `.example` domains and do not submit real applications.
+InternBoard is a responsive, beginner-friendly internship discovery dashboard designed to help students explore fictional early-career opportunities across technology, design, and data.
+
+The platform provides searchable internship listings, practical filters, sorting options, accessible interactions, and responsive layouts for desktop, tablet, and mobile devices.
+
+> **Note:** All companies and internship openings are fictional. The Apply buttons use demo email drafts with reserved `.example` domains and do not submit real applications.
+
+---
 
 ## Features
 
-- Search internship titles, companies, skills, domains, locations, and work types as you type.
-- Combine domain, location, work type, stipend, and duration filters.
-- Sort by latest, oldest, stipend, or company name.
-- See a live result count and a helpful empty state.
-- Browse internship cards and full role details loaded dynamically from JSON.
-- Open and close the details dialog with a keyboard or pointer.
-- Use the responsive mobile navigation, with no third-party JavaScript dependencies.
-- See a clear, retryable error state if the internship data cannot be loaded.
+- Search internship titles, companies, skills, domains, locations, and work types in real time.
+- Combine multiple filters including:
+  - Domain
+  - Location
+  - Work Type
+  - Stipend
+  - Duration
+- Sort internships by:
+  - Latest
+  - Oldest
+  - Highest Stipend
+  - Lowest Stipend
+  - Company Name
+- Live internship result count.
+- Helpful empty state when no results are found.
+- Internship cards rendered dynamically from JSON data.
+- Detailed internship information displayed in an accessible modal dialog.
+- Keyboard-friendly navigation.
+- Responsive mobile navigation.
+- Clear and retryable error state when internship data cannot be loaded.
+- No third-party JavaScript frameworks or dependencies.
+- Fully responsive across desktop, tablet, and mobile devices.
+
+---
 
 ## Technologies
 
@@ -22,60 +44,67 @@ InternBoard is a responsive, beginner-friendly internship discovery dashboard. I
 - Vanilla JavaScript
 - JSON
 
+---
+
 ## Accessibility
 
-The page uses semantic landmarks and headings, a skip link, explicitly associated form labels, real buttons, and visible focus styles. Search and filters work with the keyboard, and updates to the result count are announced with a polite live region. The native modal dialog traps focus while open, closes with Escape, and includes a labeled close button. Color is not the only way information is communicated, and the layout respects reduced-motion preferences.
+The website follows accessibility-focused development practices, including:
+
+- Semantic HTML landmarks and headings.
+- Skip navigation link.
+- Explicitly associated form labels.
+- Real HTML buttons.
+- Visible keyboard focus styles.
+- Keyboard-accessible search and filters.
+- Polite live region for dynamically updated result counts.
+- Accessible modal dialog.
+- Escape key support for closing the modal.
+- Focus management inside the modal.
+- Proper image alternative text.
+- Color is not the only method used to communicate information.
+- Reduced-motion preference support.
+
+---
 
 ## Screenshots
 
-Add screenshots of the desktop, tablet, and mobile layouts here after running the project. For example:
+### Desktop
 
-```md
-![InternBoard desktop view](screenshots/desktop.png)
-![InternBoard mobile view](screenshots/mobile.png)
-```
+![InternBoard Desktop](screenshots/desktop.png)
+
+### Tablet
+
+![InternBoard Tablet](screenshots/tablet.png)
+
+### Mobile
+
+![InternBoard Mobile](screenshots/mobile.png)
+
+---
 
 ## Live Demo
 
-https://snadiok4923a.github.io/Internship/
+[Open Live Website](https://snadiok4923a.github.io/Internship/)
 
-## GitHub
+---
 
-Add your repository URL here: `https://github.com/snadiok4923A/Internship`
+## GitHub Repository
 
-## How to Run
+[View Source Code on GitHub](https://github.com/snadiok4923A/Internship)
 
-The page uses `fetch()` to load `data/internships.json`, so run it through a local web server rather than opening `index.html` directly with a `file://` URL.
+---
 
-1. Open a terminal in the `internship-board` folder.
-2. Start any static local server. For example, if Python is installed:
+## How to Run Locally
 
-   ```bash
-   python -m http.server 8000
-   ```
+The website uses `fetch()` to load internship data from:
 
-   Or, if Node.js is installed, use a static server such as `npx serve .`.
+`data/internships.json`
 
-3. Open `http://localhost:8000` (or the local URL shown by your server) in a browser.
+Therefore, the project should be run through a local web server instead of opening `index.html` directly using a `file://` URL.
 
-No build step or package installation is required.
+### Using Python
 
-## Deploy to GitHub Pages
+Open a terminal inside the project folder and run:
 
-1. Create a GitHub repository and add the contents of this `internship-board` folder to its root.
-2. Push the files to the repository’s default branch.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, select the default branch and the `/ (root)` folder, then save.
-5. Wait for GitHub Pages to publish the site. Keep `index.html`, `style.css`, `script.js`, and the `data/` folder at the same relative paths; the JSON fetch path is relative and works for repository project pages.
-
-## Project Structure
-
-```text
-internship-board/
-├── index.html
-├── style.css
-├── script.js
-├── data/
-│   └── internships.json
-└── README.md
-```
+```bash
+python -m http.server 8000
